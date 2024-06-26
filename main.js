@@ -1,0 +1,13 @@
+const h1 = document.createElement("h1")
+const sectionForm = document.createElement("section")
+const form = document.createElement("form")
+const label = document.createElement("label")
+const input = document.createElement("input")
+const divContainBtns = document.createElement("div")
+const btnSubmit = document.createElement("button")
+const btnClear = document.createElement("button")
+const sectionList = document.createElement("section")
+const divList = document.createElement("div")
+const textList = document.createElement("p")
+const imgBtn = document.createElement("img")
+
