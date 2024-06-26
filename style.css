@@ -88,9 +88,7 @@ button{
     justify-content: flex-start;
     width: 500px;
     gap: 20px;
-    padding-top: 20px;
-   
-    
+    padding-top: 20px;  
 }
 
 #conteinList > div{
@@ -100,6 +98,5 @@ button{
     border-radius: 20px;
     padding: 10px;
     background-color: rgba(229, 241, 211, 0.589);
-    
 }
 
