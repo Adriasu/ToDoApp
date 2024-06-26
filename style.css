@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Playwrite DE Grund;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20220628/pngtree-complex-tech-background-with-molecules-and-data-connection-form-design-photo-image_37390678.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#conteinToDoApp{
+    border: 2px solid rgb(48, 255, 7);
+    min-width: 800px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: rgb(24, 220, 50) 0px 10px 39px 0px;
+}
+
+h1{
+    font-size: 50px;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(2, 36, 2, 0.589);
+    color: rgb(99, 252, 61);
+    border-radius: 20px 20px 0px 0px;
+    border-bottom: 2px solid black;
+}
+
+#conteinForm{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input{
+    border-radius: 5px;
+    border: 2px solid green;
+    width: 178px;
+}
+
+#containBtns{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button{
+    width: 90px;
+    border-radius: 10px;
+}
+
+#conteinList{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 500px;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+#conteinList > div{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid green;
+}
+

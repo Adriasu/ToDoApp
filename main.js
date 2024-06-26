@@ -1,3 +1,4 @@
+const section = document.createElement("section")
 const h1 = document.createElement("h1");
 const sectionForm = document.createElement("section");
 const form = document.createElement("form");
@@ -8,15 +9,21 @@ const btnSubmit = document.createElement("button");
 const btnClear = document.createElement("button");
 const sectionList = document.createElement("section");
 
-document.querySelector("body").appendChild(h1);
-document.querySelector("body").appendChild(sectionForm);
-document.querySelector("body").appendChild(sectionList);
+document.querySelector("body").appendChild(section);
+section.appendChild(h1);
+section.appendChild(sectionForm);
+section.appendChild(sectionList);
 sectionForm.appendChild(form);
 form.appendChild(label);
 form.appendChild(input);
 form.appendChild(divContainBtns);
 divContainBtns.appendChild(btnSubmit);
 divContainBtns.appendChild(btnClear);
+
+section.id = "conteinToDoApp"
+sectionForm.id = "conteinForm"
+sectionList.id = "conteinList"
+divContainBtns.id = "containBtns"
 
 h1.innerHTML = "ToDo App";
 label.innerHTML = "Type a new to-do:";
